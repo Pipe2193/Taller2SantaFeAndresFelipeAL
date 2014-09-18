@@ -1,0 +1,120 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+body
+{
+  margin: 0px auto;
+  background-color: #E6E6E6;
+
+}
+
+/*encabezado de la pagina */
+#encabezado{
+  width: 1024px;
+  height: 250px;
+  background-color: #F8E0E0;
+  box-shadow: 0 0  10px;
+  margin-bottom: 3px; 
+}
+/*contenido de la pagina*/
+#contenido
+{
+  width: 1024px;
+  height: 2500px;
+  background-color: #FBEFFB;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0  10px;	
+}
+
+/* los links de la pagina del lateral*/
+.links li{
+  list-style: none;
+
+}
+/*personalizacion font*/
+.texto
+{
+  float: left;
+  padding-top: 5px;
+  width: 500px;
+  height: 800px;
+}
+h1{
+  font-family: courier, monospace;
+  font-size: 50px;
+  color: #FF0000;
+  margin-left: -20px;
+}
+
+h2{
+  font-family: courier, monospace;
+  color: #2E2EFE;
+  font-size: 30px
+}
+/*botones de navegacion*/
+.links{ 
+  background:-moz-linear-gradient(#FF0000 0%,#FF0000 100%);
+  background:-ms-linear-gradient(#FF0000 0%,#FF0000 100%); 
+  background:-o-linear-gradient(#FF0000 0%,#FF0000 100%); 
+  background:-webkit-linear-gradient(#FF0000 0%,#FF0000 100%); 
+  background:linear-gradient(#FF0000 0%,#FF0000 100%);
+  border:solid 1px #DEDEDE; 
+  border-radius:5px;
+  text-align:center;
+  padding:5px; 
+  color: #FF0000; 
+  width:75px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  float: left;
+} 
+.links:hover{
+  background:-moz-linear-gradient(#fff 0%,#DEDEDE 100%);
+  color:#999; 
+}
+/*mensaje de eliminar matricula*/
+#deleteA{
+  background-color: #FFBABA;
+  margin-top: 80px;
+  margin-right: -525px;
+  color: #7e0000;
+}
+
+/*lateral de la pagina*/
+#lateral{
+  width: 524px;
+  height: 100px;
+  background-color: #BDBDBD;
+  float: right;
+  box-shadow: 0 0 20px;
+}
+/*posicion formulario*/
+#form{
+  margin-top: 100px;
+  margin-left: 410px;
+}
+/*pie de la pagina*/
+#pie{
+  width: 1024px;
+  height: 100px;
+  background-color: #A4A4A4;
+  box-shadow: 0 0  20px;
+  margin: 0 0 0 0;
+  font:  15px/25px Arial, Helvetica; 
+  text-decoration: none; 
+  color: #E6E6E6;
+}
+/*copyright*/
+#ptex
+{
+  text-align: center;
+}
+/* 
+    Created on : 3/09/2014, 10:47:38 PM
+    Author     : Asus K550D
+*/
+

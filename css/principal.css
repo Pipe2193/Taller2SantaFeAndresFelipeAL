@@ -1,0 +1,198 @@
+/*
+contiene los  estilos del sistema
+*/
+/*Alineamiento de la pagina web*/
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+body
+{
+  margin: 0px auto;
+  background-color: #E6E6E6;
+
+}
+/*Menu desplegable */
+#nav{
+  width: 1024px;
+  margin-bottom: 3px;
+}
+
+.menu{
+  width: 1024px; 
+  margin: 0 auto; 
+
+}
+
+
+.menu li{
+  float: left; 
+  position: relative;
+  list-style: none;
+}
+
+.menu>li{
+  background-color: #DF0101;
+  background-image: -webkit-linear-gradient(white);/**#FA8258*/
+  background-image: -moz-linear-gradient(white);
+  background-image: -o-linear-gradient(white);
+  border-left: 1px solid #5f5f5f;
+  border-right: 1px solid #7e0000;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin-top: 1px;
+  border-color: #424242;
+}
+
+.menu li:first-child{
+  border-radius: 3px 0px 0px 3px;
+  border-left: none;
+}
+
+.menu li:last-child{
+  border-radius: 0px 3px 3px 0px;
+  border-right: none;
+}
+
+.menu a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 0 42.6px;
+  font-family: 'Verdana', arial;
+  margin: 0;
+  position: relative;
+  font-size: 12px;
+  line-height: 40px;
+  float: left;
+  border-color: #424242;
+
+}
+
+.menu li:hover{
+  -webkit-box-shadow: inset 0 0 10px #470000;
+  -moz-box-shadow: inset 0 0 10px #470000;
+  box-shadow: inset 0 0 10px #470000;
+  background-color: #FF0000;
+  background-image: -webkit-linear-gradient(#FF0000, #FF0000);
+  background-image: -moz-linear-gradient(#FF0000, #FF0000);
+  background-image: -o-linear-gradient(#FF0000, #FF0000);
+  background-image: linear-gradient(#FF0000, #FF0000);
+}
+
+.menu li:hover span:after{
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.menu li:hover{
+  visibility: visible;
+  height: 100%;
+  opacity: 1;
+}
+.menu a span:after{
+  content: "";
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid white;
+  position: absolute;
+  top: 30px;
+  right: 35px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; 
+}
+.menu a:after {
+  background: rgba(255,255,255,.07);
+  content: "";
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+/* submenu*/
+
+
+/*encabezado de la pagina */
+#encabezado{
+  width: 1024px;
+  height: 300px;
+  background-color:  #F8E0E0;
+  box-shadow: 0 0  10px;
+  margin-bottom: 3px; 
+}
+/*contenido de la pagina*/
+#contenido
+{
+  width: 1024px;
+  height: 500px;
+  background-color: #FBEFFB;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0  10px;	
+}
+
+/*personalizacion font*/
+
+h1{
+  font-family: courier, monospace;
+  font-size: 50px;
+  color: #FF0000;
+}
+
+h2
+{
+  font-family: courier, monospace;
+  color: #2E2EFE;
+  font-size: 30px
+}
+
+.texto
+{
+  float: right;
+  margin-left: -20px;
+  padding-top: 5px;
+  width: 100px;
+  height: 800px;
+
+}
+/*lateral de la pagina*/
+
+#lateral
+{
+  width: 224px;
+  height: 500px;
+  background-color: #BDBDBD;
+  float: right;
+  box-shadow: 0 0 10px;
+  margin-top: -80px;
+
+}
+/*pie de la pagina*/
+#pie
+{
+  width: 1024px;
+  height: 100px;
+  background-color: #A4A4A4;
+  box-shadow: 0 0  20px;
+  margin: 0 0 0 0;
+  font:  15px/25px Arial, Helvetica; 
+  text-decoration: none; 
+  color: #E6E6E6;
+
+
+}
+
+#backform{
+  margin-left: 40px;
+}
+/* 
+    Created on : 29/08/2014, 10:11:51 PM
+    Author     : Asus K550D
+*/
+

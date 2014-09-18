@@ -1,0 +1,39 @@
+/*
+contiene los  estilos del sistema
+*/
+table {     
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 10px;    
+  margin: 30px;     
+  width: 48px; 
+  text-align: left;    
+  border-collapse: collapse;
+}
+
+th {     
+  font-size: 13px;     
+  font-weight: normal;     
+  padding: 8px;     
+  background-color: #000000;
+  border-top: 2px solid #BDBDBD;    
+  border-bottom: 2px solid #BDBDBD; 
+  color: #fff; 
+}
+
+td {    
+  padding: 5px;     
+  background: #190710;     
+  border-bottom: 2px solid #fff;
+  color: #F8E0E0;    
+  border-top: 1px solid transparent; 
+}
+
+tr:hover td { 
+  background: #888; 
+  color: #FFFF00; 
+}
+/* 
+    Created on : 29/08/2014, 10:11:51 PM
+    Author     : mariana-pc
+*/
+
